@@ -968,7 +968,30 @@ testimonials
     display: none!important;
   }
 }
-
+.footer {
+  background-color: #0B0D17;
+  padding: 60px 0px;
+}
+.footer p{
+  color: white;
+}
+.footer h5{
+  color: white;
+}
+.footer .copyright {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #4a4a4a;
+  letter-spacing: 0.88px;
+  text-transform: capitalize;
+}
+.list-unstyled li{
+  padding-top: 20px;
+}
+.list-unstyled li a{
+  color: #fff;
+}
 /* 
 ---------------------------------------------
 footer
@@ -986,18 +1009,12 @@ footer
   footer .right-content {
     text-align: center;
   }
-  footer .footer-content {
-    padding: 60px 0px!important;
-  }
+
+  
 }
 
-footer {
-background-color: #000000;
-}
 
-footer .footer-content {
-  padding: 120px 0px;
-}
+
 
 .contact-form {
   position: relative;
@@ -1053,35 +1070,13 @@ footer .right-content {
   color: #7a7a7a;
 }
 
-.footer-content .right-content {
+-content .right-content {
   color: #fff;
 }
 
-.footer-content .right-content h2 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-size: 42px;
-  text-transform: capitalize;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
 
-.footer-content .right-content h2 em {
-  font-style: normal;
-  color: #2B64D8;
-}
 
-.footer-content .right-content p {
-  color: #FFF;
-}
 
-.footer-content .right-content a {
-  color: #FFF;
-}
-
-.footer-content .right-content a:hover {
-  color: #FC3;
-}
 
 footer .social {
   overflow: hidden;
